@@ -1,0 +1,18 @@
+.container{
+    background-color: black;
+    color:grey;
+
+    &:hover{
+        background-color: blue;
+        color:yellow;
+        text-decoration: none;
+    }
+
+    .container-title{
+        text-transform: uppercase;
+    }
+    .container-description{
+        text-decoration: line-through;
+    }
+
+}
