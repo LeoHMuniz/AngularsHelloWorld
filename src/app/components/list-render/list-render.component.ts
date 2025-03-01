@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
 import { Animal } from '../../interfaces/Animal';
 import { ListService } from '../../services/list.service';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-list-render',
-  imports: [NgFor],
+  imports: [NgFor, RouterLink],
   templateUrl: './list-render.component.html',
   styleUrl: './list-render.component.scss'
 })

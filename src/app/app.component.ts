@@ -10,7 +10,6 @@ import { RouterOutlet, RouterLink } from '@angular/router';
 // import { PipesComponent } from './components/pipes/pipes.component';
 // import { TwoWayBindsComponent } from './components/two-way-binds/two-way-binds.component';
 import { FormsModule } from '@angular/forms';
-import { HttpClient } from '@angular/common/http';
 
 // , FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent, EventsComponent, EmitterComponent, ListRenderComponent, PipesComponent, TwoWayBindsComponent,
 @Component({
